@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+html,body{
+  background: linear-gradient(to right, #c04848, #480048);
+  /* background: linear-gradient(to right, #8e0e00, #1f1c18); */
+  /* background: linear-gradient(to right, #080509, #121415); */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+*{
+  font-family:  'Karla', 'Roboto Slab','Old Standard TT',  'Noto Serif JP', serif;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+
+.title{
+  letter-spacing: -3px;
+  font-variant: small-caps;
+  
+  
+}
+
+.sign{
+  font-family: 'Homemade Apple' , serif !important;
+  font-style: normal;
+  letter-spacing: 0px;
+
+  color: rgba(255,255,255,0.95);
+  
+}
+
+.shadow1{
+  text-shadow:0px 0px 5px rgba(22, 15, 73,0.25), 10px 10px 5px rgba(0,0,0,0.14);
+  
+}
+
+.shadow2{
+  text-shadow:0px 0px 5px rgba(22, 15, 73,0.55);
+}
+
+
+table td{
+  padding-top: 0.01rem !important;
+  font-size: 1rem;
+}
+
+/* write styles for .shuffle-text-char with higher specificity */
+.my-shuffle .shuffle-text-char {
+  animation: 0s ease-in-out both myWordEnter; /* none for no effect */
+}
+ 
+@keyframes myWordEnter {
+  0% {
+    opacity: 0;
+    transform: translate(0%, 0) scale(1);
+  }
+ 
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
